@@ -1,16 +1,13 @@
-package chiharu.hagihara.waterfallmckotlintemplate;
+package chiharu.hagihara.waterfallmckotlintemplate
 
-import net.md_5.bungee.api.plugin.Plugin;
+import net.md_5.bungee.api.plugin.Plugin
 
-public final class WaterfallMCKotlinTemplate extends Plugin {
-
-    @Override
-    public void onEnable() {
+class WaterfallMCKotlinTemplate : Plugin() {
+    override fun onEnable() {
         // Plugin startup logic
     }
 
-    @Override
-    public void onDisable() {
+    override fun onDisable() {
         // Plugin shutdown logic
     }
 }
